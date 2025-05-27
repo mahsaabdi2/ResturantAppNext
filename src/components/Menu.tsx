@@ -27,7 +27,7 @@ function Menu() {
         }
 
         {open &&
-        <div className='bg-red-500 text-white absolute left-0 top-24 h-screen h-[calc(100vh-6rem)] flex items-center z-10 justify-center w-full text-3xl flex-col gap-8'>
+        <div className='bg-red-500 text-white absolute left-0 top-24  h-[calc(100vh-6rem)] flex items-center z-10 justify-center w-full text-3xl flex-col gap-8'>
             {
                 links.map((item)=>(
                     <Link key={item.id} href={item.url} onClick={()=>setOpne(false)}>
